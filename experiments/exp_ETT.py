@@ -11,7 +11,7 @@ import warnings
 
 from model.D_PAD_GAT import DPAD_GAT
 from model.D_PAD_ATT import DPAD_ATT
-from model.D_PAD_SEBlock import BDPAD_SE
+from model.D_PAD_SEBlock import DPAD_SE
 from model.D_PAD_adpGCN import DPAD_GCN
 
 
@@ -74,8 +74,8 @@ class Exp_ETT(Exp_Basic):
                 RIN=self.args.RIN,
                 num_heads = self.args.num_heads
             )
-        elif 'BDPAD_SE' in self.args.model_name:
-            model = BDPAD_SE(
+        elif 'DPAD_SE' in self.args.model_name:
+            model = DPAD_SE(
                 output_len=self.args.pred_len,
                 input_len=self.args.seq_len,
                 input_dim=self.input_dim,
