@@ -2,7 +2,7 @@
 
 This repository is the official implementation of D-PAD: Deep-Shallow Multi-Frequency Patterns Disentangling for Time Series Forecasting. 
 
-![image-20230523142543628](C:\Users\percom\AppData\Roaming\Typora\typora-user-images\image-20230523142543628.png)
+<img src="pic/overview.png" alt="image-20230523111250181" style="zoom:80%;" />
 
 ## Requirements
 
@@ -28,7 +28,7 @@ sh ./scripts/run_weather.sh
 
 ## Main Results
 
-<img src="C:\Users\percom\AppData\Roaming\Typora\typora-user-images\image-20230523111250181.png" alt="image-20230523111250181" style="zoom:80%;" />
+<img src="pic/results.png" alt="image-20230523111250181" style="zoom:80%;" />
 
 ## Directory Structure
 
