@@ -2,7 +2,7 @@
 
 This repository is the official implementation of D-PAD: Deep-Shallow Multi-Frequency Patterns Disentangling for Time Series Forecasting. 
 
-<img src="pic/overview.png" alt="image-20230523111250181" style="zoom:80%;" />
+<img src="pic/overview.png" alt="image-20230523111250181" style="zoom:60%;" />
 
 ## Requirements
 
@@ -28,7 +28,7 @@ sh ./scripts/run_weather.sh
 
 ## Main Results
 
-<img src="pic/results.png" alt="image-20230523111250181" style="zoom:80%;" />
+<img src="pic/results.png" alt="image-20230523111250181" style="zoom:60%;" />
 
 ## Directory Structure
 
