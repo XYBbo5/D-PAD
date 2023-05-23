@@ -197,10 +197,10 @@ class DPAD(nn.Module):
         return x
 
 
-class BDPAD_SE(nn.Module):
+class DPAD_SE(nn.Module):
     def __init__(self, output_len, input_len, input_dim=9, enc_hidden=1, dec_hidden=1, num_levels=3, dropout=0.5,
                  single_step_output_One=0, K_IMP=6, RIN=0):
-        super(BDPAD_SE, self).__init__()
+        super(DPAD_SE, self).__init__()
 
         self.input_dim = input_dim
         self.input_len = input_len
@@ -263,7 +263,7 @@ if __name__ == '__main__':
                         type=int, help='hidden size of module')
     parser.add_argument('--RIN', default=1, type=int, help='ReVIN')
     args = parser.parse_args()
-    model = BDPAD_SE(input_len=168, output_len=args.horizon, input_dim=8, enc_hidden=168,
+    model = DPAD_SE(input_len=168, output_len=args.horizon, input_dim=8, enc_hidden=168,
                      dec_hidden=168, dropout=0.5, num_levels=3, K_IMP=6, RIN=1).cuda()
     x = torch.randn(32, 168, 8).cuda()
     y = model(x)
