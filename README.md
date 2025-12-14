@@ -26,9 +26,6 @@ sh ./scripts/run_traffic.sh
 sh ./scripts/run_weather.sh
 ```
 
-## Main Results
-
-<img src="pic/results.png" alt="image-20230523111250181" style="zoom:70%;" />
 
 ## Directory Structure
 
