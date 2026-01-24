@@ -1,0 +1,18 @@
+[project]
+name = "dpad"
+version = "0.1.0"
+description = "D-PAD: Deep-Shallow Multi-Frequency Patterns Disentangling for Time Series Forecasting"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "matplotlib>=3.9.2",
+    "numpy==1.*",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.5.2",
+    "torch==1.9.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "gdown>=5.2.0",
+]
